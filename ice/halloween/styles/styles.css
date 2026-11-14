@@ -1,0 +1,102 @@
+/* Add your CSS here to style your halloween page */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+body {
+  background-color: #1a0d2e;
+  color: #f2e6d9;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+#wrapper {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #0d0d0d;
+  border: 3px solid #ff7518;
+}
+
+header {
+  background-color: #ff7518;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  margin: 0;
+  padding: 15px;
+}
+
+nav li {
+  color: #0d0d0d;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+nav li:hover {
+  background-color: #0d0d0d;
+  color: #ff7518;
+  cursor: pointer;
+}
+
+main {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+h1 {
+  font-family: 'Creepster', Arial, sans-serif;
+  font-size: 4em;
+  color: #ff7518;
+  text-align: center;
+  text-shadow: 3px 3px 8px #8a2be2;
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  border: 3px solid #8a2be2;
+}
+
+h1, img {
+  grid-column: 1/4;
+}
+
+section {
+  background-color: #2b1a40;
+  border: 2px solid #8a2be2;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+section:hover {
+  border-color: #ff7518;
+  box-shadow: 0 0 15px #ff7518;
+}
+
+h2 {
+  font-family: 'Creepster', Arial, sans-serif;
+  color: #7fff00;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+footer {
+  background-color: #8a2be2;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
